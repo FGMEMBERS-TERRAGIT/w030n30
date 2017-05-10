@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LPPI.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>16000</max-m>
+ </animation>
+
+ <animation>
+  <object-name>window.day</object-name>
+  <object-name>window.night</object-name>
+  <enable-hot type="bool">true</enable-hot>
+ </animation>
+ 
+ <animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>windows.night</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+ <animation>
+  <type>select</type>
+  <object-name>windows.day</object-name>
+  <condition>
+   <less-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </less-than>
+  </condition>
+ </animation>
+</PropertyList>
