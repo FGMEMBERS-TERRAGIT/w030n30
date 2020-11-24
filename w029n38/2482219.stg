@@ -63,3 +63,11 @@ OBJECT_SHARED Models/Boundaries/Fence-50m-grayBW.xml -28.1714139 38.6633769 99.4
 OBJECT_SHARED Models/Boundaries/Fence-50m-grayBW.xml -28.1708978 38.6631785 99.2 153.8
 OBJECT_SHARED Models/Boundaries/Fence-50m-grayBW.xml -28.1703815 38.6629804 98.89 153.8
 OBJECT_SHARED Models/Boundaries/Fence-50m-grayBW.xml -28.1698651 38.6627826 98.55 153.9
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/cars4.ac -28.16874 38.66491 0.00 324.846
+OBJECT_SHARED Models/lib/cars4.ac -28.16856 38.66480 100.95 324.846
+OBJECT_SHARED Models/lib/cube16x10.ac -28.17010 38.66449 100.65 323.629
+OBJECT_SHARED Models/lib/fuel-truck.xml -28.16991 38.66453 100.89 59.1841
+# END dsf2stg
